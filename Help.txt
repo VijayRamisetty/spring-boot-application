@@ -1,0 +1,18 @@
+mvn clean install -DskipTests=true
+java -jar target/spring-boot-application-0.0.1-SNAPSHOT.jar
+java -jar target/spring-boot-application-0.0.1-SNAPSHOT.jar --server.port=9090
+
+# external properties file over default application.properties [ src/main/resources/application.properties]
+# explicitly specifying external application-dev.properties
+java -jar  -Dspring.config.location=application-dev.properties target/spring-boot-application-0.0.1-SNAPSHOT.jar --server.port=9090
+
+# implicitly specifying env via profiles which pick application-{env}.properties file
+java -jar  -Dspring.config.location=./  -Dspring.profiles.active=dev   target/spring-boot-application-0.0.1-SNAPSHOT.jar --server.port=9090
+
+# to enable debug --debug or in application-{env}.properties debug=false
+java -jar  -Dspring.config.location=./  -Dspring.profiles.active=dev   target/spring-boot-application-0.0.1-SNAPSHOT.jar --server.port=9090 --debug
+
+#swagger UI
+http://localhost:9090/swagger-ui.html#/
+
+curl -X GET "http://localhost:9090/list"
