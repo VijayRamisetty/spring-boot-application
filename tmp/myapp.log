@@ -1,22 +1,21 @@
-[2020-05-22T21:40:46.046Z] [INFO ] [main] [org.springframework.boot.StartupInfoLogger]  [55]  Starting SpringBootMain v0.0.1-SNAPSHOT on Vijays-MacBook-Air.local with PID 1944 (/Users/rami/Downloads/spring-boot-application/target/spring-boot-application-0.0.1-SNAPSHOT.jar started by rami in /Users/rami/Downloads/spring-boot-application)
-[2020-05-22T21:40:46.046Z] [INFO ] [main] [org.springframework.boot.SpringApplication]  [655]  The following profiles are active: dev
-[2020-05-22T21:40:48.048Z] [INFO ] [main] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer]  [108]  Tomcat initialized with port(s): 9090 (http)
-[2020-05-22T21:40:48.048Z] [INFO ] [main] [org.apache.juli.logging.DirectJDKLog]  [173]  Initializing ProtocolHandler ["http-nio-9090"]
-[2020-05-22T21:40:48.048Z] [INFO ] [main] [org.apache.juli.logging.DirectJDKLog]  [173]  Starting service [Tomcat]
-[2020-05-22T21:40:48.048Z] [INFO ] [main] [org.apache.juli.logging.DirectJDKLog]  [173]  Starting Servlet engine: [Apache Tomcat/9.0.35]
-[2020-05-22T21:40:49.049Z] [INFO ] [main] [org.apache.juli.logging.DirectJDKLog]  [173]  Initializing Spring embedded WebApplicationContext
-[2020-05-22T21:40:49.049Z] [INFO ] [main] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext]  [284]  Root WebApplicationContext: initialization completed in 2571 ms
-[2020-05-22T21:40:49.049Z] [INFO ] [main] [springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping]  [69]  Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
-[2020-05-22T21:40:49.049Z] [INFO ] [main] [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport]  [181]  Initializing ExecutorService 'applicationTaskExecutor'
-[2020-05-22T21:40:50.050Z] [INFO ] [main] [org.apache.juli.logging.DirectJDKLog]  [173]  Starting ProtocolHandler ["http-nio-9090"]
-[2020-05-22T21:40:50.050Z] [INFO ] [main] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer]  [220]  Tomcat started on port(s): 9090 (http) with context path ''
-[2020-05-22T21:40:50.050Z] [INFO ] [main] [springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper]  [160]  Context refreshed
-[2020-05-22T21:40:50.050Z] [INFO ] [main] [springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper]  [163]  Found 1 custom documentation plugin(s)
-[2020-05-22T21:40:50.050Z] [INFO ] [main] [springfox.documentation.spring.web.scanners.ApiListingReferenceScanner]  [41]  Scanning for api listing references
-[2020-05-22T21:40:50.050Z] [INFO ] [main] [org.springframework.boot.StartupInfoLogger]  [61]  Started SpringBootMain in 5.325 seconds (JVM running for 6.164)
-[2020-05-22T21:40:50.050Z] [INFO ] [main] [com.vj.spring.SpringBootMain]  [33]  SpringBootMain Started [appName] :spring-boot-demo
-[2020-05-22T21:40:50.050Z] [INFO ] [main] [com.vj.spring.SpringBootMain]  [34]  SpringBootMain Started [env] :dev
-[2020-05-22T21:40:57.057Z] [INFO ] [http-nio-9090-exec-1] [org.apache.juli.logging.DirectJDKLog]  [173]  Initializing Spring DispatcherServlet 'dispatcherServlet'
-[2020-05-22T21:40:57.057Z] [INFO ] [http-nio-9090-exec-1] [org.springframework.web.servlet.FrameworkServlet]  [525]  Initializing Servlet 'dispatcherServlet'
-[2020-05-22T21:40:57.057Z] [INFO ] [http-nio-9090-exec-1] [org.springframework.web.servlet.FrameworkServlet]  [547]  Completed initialization in 10 ms
-[2020-05-22T21:42:15.015Z] [INFO ] [SpringContextShutdownHook] [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport]  [218]  Shutting down ExecutorService 'applicationTaskExecutor'
+[2020-05-24T12:11:36.036Z] [INFO ] [main] [org.springframework.boot.StartupInfoLogger]  [55]  Starting SpringBootMain v0.0.1-SNAPSHOT on Vijays-MacBook-Air.local with PID 1286 (/Users/rami/Downloads/spring-boot-application/target/spring-boot-application-0.0.1-SNAPSHOT.jar started by rami in /Users/rami/Downloads/spring-boot-application)
+[2020-05-24T12:11:36.036Z] [INFO ] [main] [org.springframework.boot.SpringApplication]  [655]  The following profiles are active: dev
+[2020-05-24T12:11:39.039Z] [INFO ] [main] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer]  [108]  Tomcat initialized with port(s): 9090 (http)
+[2020-05-24T12:11:39.039Z] [INFO ] [main] [org.apache.juli.logging.DirectJDKLog]  [173]  Initializing ProtocolHandler ["http-nio-9090"]
+[2020-05-24T12:11:39.039Z] [INFO ] [main] [org.apache.juli.logging.DirectJDKLog]  [173]  Starting service [Tomcat]
+[2020-05-24T12:11:39.039Z] [INFO ] [main] [org.apache.juli.logging.DirectJDKLog]  [173]  Starting Servlet engine: [Apache Tomcat/9.0.35]
+[2020-05-24T12:11:39.039Z] [INFO ] [main] [org.apache.juli.logging.DirectJDKLog]  [173]  Initializing Spring embedded WebApplicationContext
+[2020-05-24T12:11:39.039Z] [INFO ] [main] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext]  [284]  Root WebApplicationContext: initialization completed in 2512 ms
+[2020-05-24T12:11:40.040Z] [INFO ] [main] [springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping]  [69]  Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+[2020-05-24T12:11:40.040Z] [INFO ] [main] [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport]  [181]  Initializing ExecutorService 'applicationTaskExecutor'
+[2020-05-24T12:11:40.040Z] [INFO ] [main] [org.apache.juli.logging.DirectJDKLog]  [173]  Starting ProtocolHandler ["http-nio-9090"]
+[2020-05-24T12:11:40.040Z] [INFO ] [main] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer]  [220]  Tomcat started on port(s): 9090 (http) with context path ''
+[2020-05-24T12:11:40.040Z] [INFO ] [main] [springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper]  [160]  Context refreshed
+[2020-05-24T12:11:40.040Z] [INFO ] [main] [springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper]  [163]  Found 1 custom documentation plugin(s)
+[2020-05-24T12:11:41.041Z] [INFO ] [main] [springfox.documentation.spring.web.scanners.ApiListingReferenceScanner]  [41]  Scanning for api listing references
+[2020-05-24T12:11:41.041Z] [INFO ] [main] [org.springframework.boot.StartupInfoLogger]  [61]  Started SpringBootMain in 5.454 seconds (JVM running for 6.285)
+[2020-05-24T12:11:41.041Z] [INFO ] [main] [com.vj.spring.SpringBootMain]  [33]  SpringBootMain Started [appName] :spring-boot-demo
+[2020-05-24T12:11:41.041Z] [INFO ] [main] [com.vj.spring.SpringBootMain]  [34]  SpringBootMain Started [env] :dev
+[2020-05-24T12:11:51.051Z] [INFO ] [http-nio-9090-exec-1] [org.apache.juli.logging.DirectJDKLog]  [173]  Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2020-05-24T12:11:51.051Z] [INFO ] [http-nio-9090-exec-1] [org.springframework.web.servlet.FrameworkServlet]  [525]  Initializing Servlet 'dispatcherServlet'
+[2020-05-24T12:11:51.051Z] [INFO ] [http-nio-9090-exec-1] [org.springframework.web.servlet.FrameworkServlet]  [547]  Completed initialization in 33 ms

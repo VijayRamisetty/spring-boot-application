@@ -8,6 +8,6 @@ public class MyRestController {
 
     @RequestMapping(value = "/")
     public String hello() {
-        return "Hello World";
+        return "Hello World \n Access : http://localhost:9090/swagger-ui.html#/";
     }
 }
